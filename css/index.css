@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: min-content;
+  background-color: #fff;
+  height: 60%;
+  background-color: #fff;
+}
+.calculator {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.calculator input,
+.calculator button {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 18px;
+}
+.calculator button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.calculator button:hover {
+  background: #0056b3;
+}
